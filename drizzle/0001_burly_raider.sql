@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX `menu_schedule_item_id_date_unique` ON `menu_schedule` (`item_id`,`date`);

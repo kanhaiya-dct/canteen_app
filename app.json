@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "SD Institute Canteen",
+    "slug": "canteen_app",
+    "version": "1.0.0",
+    "description": "Premium Canteen Management System for SDIT",
+    "orientation": "portrait",
+    "icon": "./assets/icon.jpg",
+    "scheme": "canteen-app",
+    "userInterfaceStyle": "automatic",
+    "statusBarStyle": "light",
+    "newArchEnabled": true,
+    "primaryColor": "#FF9800",
+    "splash": {
+      "image": "./assets/splash-icon.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#FF9800",
+      "dark": {
+        "image": "./assets/splash-icon.jpg",
+        "backgroundColor": "#FF9800"
+      }
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sdinstitute.canteen",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.jpg",
+        "backgroundColor": "#FF9800"
+      },
+      "package": "com.sdinstitute.canteen",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.jpg"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share food images.",
+          "cameraPermission": "The app accesses your camera to let you take photos of food items."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "6b1c7e54-1938-4d50-9408-1460248e5ecb"
+      }
+    }
+  }
+}

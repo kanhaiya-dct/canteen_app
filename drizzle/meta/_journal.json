@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1777264671339,
+      "tag": "0000_early_katie_power",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1777265092567,
+      "tag": "0001_burly_raider",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1777271735119,
+      "tag": "0002_outstanding_vermin",
+      "breakpoints": true
+    }
+  ]
+}
